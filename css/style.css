@@ -1,0 +1,259 @@
+body{
+    background-image: url("../images.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px 180px;
+    background-position: right bottom;
+    font-family:myFont;
+}
+
+@font-face{
+    font-family:myFont;
+    src: url("../MedievalSharp.ttf");
+}
+
+
+#login_link{
+    margin-left: 100px;
+}
+
+/*Menu*/
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4CAF50;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #484848;
+}
+    
+/*Table*/
+table { 
+   width: 50%;
+   border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(odd){background-color: #E8E8E8  }
+
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+ .info{
+    background-color: #FFFF99;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    }
+
+    .flex-item li p{
+        margin-top: 2px;
+     }
+
+    .flex-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding-top: 2px;
+    width:500px;
+    height:640px;
+    border-radius: 25px;
+    background-color: #4CAF50;
+    }
+
+    .flex-container ul{
+    list-style-type: none;
+    }
+
+    .flex-container h1{
+    padding-left: 35px;
+    }
+     
+    .flex-item{
+    width:350px;
+    height:200px;
+    border-radius: 25px;
+    }
+
+    .flex-item li p{
+        margin-top: 3px;
+        margin-bottom: 5px;
+    }
+
+    .flex-item li a{
+        text-decoration: none;
+        font-size: 20px;
+        color: maroon;
+        font-weight: bold;
+     }     
+
+    .form-submit{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFFF99;  
+    color: maroon;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 15px; ;
+    }
+
+    .form-submit:hover{
+    background-color: #484848;
+    color: white;
+ }
+
+
+/*for buttons change*/
+ .change{
+    text-decoration: none;
+    display: block;
+    width: 65px;
+    height: 20px;
+    background-color:  #FFFF99;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+    border: solid #4CAF50 1px;
+ }
+
+ /*for buttons delete*/
+ .delete{
+    text-decoration: none;
+    display: block;
+    width: 65px;
+    height: 20px;
+    background-color: #B00000;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+ }
+
+
+/*for button add expense and add earning*/
+ .add{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: block;
+    width: 115px;
+    height: 25px;
+    background-color: #4CAF50;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+ }
+
+ .add:hover{
+    background-color: #484848;
+ }
+
+/*for forms in add_expenses.php and add_earnings.php*/
+  .add-container{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding-top: 30px;
+    width:500px;
+    height:500px;
+    border-radius: 25px;
+    background-color: #4CAF50;
+    }
+
+    .add-item{
+    width:350px;
+    height:200px;
+    border-radius: 25px;
+    padding-left: 30px;
+    }
+
+    .add-item:select{
+       margin-bottom: 50px;
+    }
+
+    label
+    {
+        font-size: 20px;
+    }
+
+/*for forms in balance.php*/
+ .balance-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    width:550px;
+    height:550px;
+    border-radius: 25px;
+    background-color: #4CAF50;
+    }
+
+    .balance-container p{
+         font-size: 20px;
+    }
+
+     /*for the non display day form in balance.php*/
+    #form-day-balance{
+        padding-top: 10px;
+    }
+
+     #form-week-balance{
+        padding-top: 10px;
+    }
+
+     #form-month-balance{
+        padding-top: 10px;
+    }
+    
+     #form-year-balance{
+        padding-top: 10px;
+    }
+    
+    .balance-container th{
+        background-color: #FFFF99;  
+        color: maroon;
+    }
+
+    table{
+    margin-top: 30px;
+    }
+
+    .balance-container table{
+        margin-top: 50px;
+    }
+
+    h3{
+        font-family:myFont;
+    }
